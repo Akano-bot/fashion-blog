@@ -1,0 +1,363 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f2f2f2;
+  font-family: sans-serif;
+  border-top: 10px solid black;
+}
+/*  first heading */
+.heading {
+  text-align: center;
+  background-color: #fff;
+  /* margin-top: 10px; */
+  padding: 40px 0;
+}
+
+h1 {
+  font-size: 40px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+#megs {
+  font-size: smaller;
+}
+
+span {
+  background-color: #000;
+  color: white;
+  padding: 2px 5px;
+}
+
+#meg {
+  display: block;
+  margin: 0 auto;
+  position: relative;
+}
+
+.img {
+  position: absolute;
+  bottom: -80px;
+  left: 80px;
+  color: white;
+  font-size: 30px;
+  letter-spacing: 0.2cm;
+  font-weight: bold;
+}
+
+/* .img::first-line {
+  font-size: smaller;
+} */
+
+#sub {
+  padding: 12px 22px;
+  text-transform: uppercase;
+  background-color: #dedbd7;
+  border: none;
+}
+
+#sub:hover {
+  background-color: #f2f2f2;
+  cursor: pointer;
+}
+
+/* girl hats section  section*/
+.section2 {
+  background-color: #fff;
+  width: 750px;
+  position: relative;
+}
+
+.heading2 {
+  text-align: center;
+  font-weight: 300;
+  padding: 25px 0;
+  font-size: larger;
+  font-family: serif;
+}
+
+.girlhat {
+  display: block;
+  margin: 0 auto;
+}
+
+.hatpar {
+  text-align: justify;
+  /* text-indent: 10px; */
+  width: 700px;
+  /* border: 1px solid black; */
+  margin: 0 auto;
+  font-size: small;
+  line-height: 1.5;
+}
+
+#like {
+  padding: 8px 10px;
+  margin-left: 25px;
+  color: black;
+  font-weight: 500;
+  border: 1px solid black;
+}
+
+#like:hover {
+  cursor: pointer;
+  background-color: #dedbd7;
+  border: none;
+}
+
+#reply {
+  background-color: black;
+  color: white;
+  padding: 8px 15px;
+  border: none;
+}
+
+#reply:hover {
+  background-color: #dedbd7;
+  color: black;
+  cursor: pointer;
+}
+
+.repp {
+  display: flex;
+  gap: 550px;
+  /* justify-content: space-between; */
+}
+
+hr {
+  width: 700px;
+  margin: 0 auto;
+}
+
+.avatar {
+  display: flex;
+  margin-left: 25px;
+  justify-content: left;
+}
+
+/* section 3 */
+.section3 {
+  width: 400px;
+}
+
+#avatargirl2 {
+  display: block;
+  margin: 0 auto;
+  opacity: 0.8;
+}
+
+#myname {
+  background-color: #000;
+  color: white;
+  font-size: smaller;
+  padding: 15px;
+}
+
+::selection {
+  background-color: blue;
+  color: white;
+}
+
+/* forth section (popular post) */
+.poppost {
+  margin-top: 20px;
+  width: 400px;
+}
+
+#postt {
+  background-color: #000;
+  color: white;
+  padding: 15px 8px;
+}
+
+.pop {
+  display: block;
+  margin-top: 10px;
+}
+
+ol.popost {
+  background-color: white;
+}
+
+ol.popost li {
+  border-bottom: 1px solid #625c5c;
+  list-style-type: none;
+  padding-left: 20px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  font-family: serif;
+  color: #5d5656;
+}
+
+ol.popost li:last-child {
+  border-bottom: none;
+}
+
+ol.popost li:hover {
+  background-color: #9d9a9a;
+}
+
+/* ol.popost li::first-line {
+  font-size: larger;
+} */
+
+/* Fifth section */
+.advert {
+  width: 400px;
+  height: 200px;
+  background: white;
+}
+
+#adv {
+  background-color: #000;
+  color: white;
+  padding: 15px 8px;
+}
+
+#ad {
+  text-align: center;
+  background-color: #f2f2f2;
+  width: 370px;
+  margin: 8px auto;
+  height: 140px;
+  padding: 60px 0;
+  font-size: medium;
+  font-family: serif;
+}
+
+/* flex and grid view for sect2345 */
+.sect2345 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto auto auto;
+}
+
+/* styled sixth section same with second section */
+
+/* seventh section */
+
+.tagss {
+  width: 400px;
+}
+
+#Tags {
+  background-color: #000;
+  color: white;
+  padding: 15px 8px;
+}
+
+#teg {
+  background-color: white;
+  padding: 20px 15px;
+  font-size: smaller;
+}
+
+#city {
+  background-color: #f2f2f2;
+  color: #5d5656;
+}
+
+/* eighth section */
+.section8 {
+  width: 400px;
+}
+
+.inspire {
+  background-color: #000;
+  color: white;
+  padding: 15px 8px;
+}
+
+.img-grid {
+  width: 400px;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
+  /* justify-content: center; */
+  padding: 10px;
+  gap: 10px;
+}
+
+.sec8:hover {
+  opacity: 0.5;
+}
+
+/* ninth section  */
+#section9 {
+  width: 400px;
+}
+
+#follow {
+  background-color: #000;
+  color: white;
+  padding: 15px 8px;
+}
+
+.em {
+  background-color: white;
+}
+
+/* tenth section */
+.section10 {
+  width: 400px;
+}
+
+#subs {
+  background-color: #000;
+  color: white;
+  padding: 15px 8px;
+}
+
+.email {
+  background-color: white;
+  padding-top: 10px;
+}
+
+p.email {
+  font-size: 13px;
+  font-weight: lighter;
+  font-family: serif;
+  padding-left: 8px;
+}
+
+input[type="email"] {
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding: 12px 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+input[type="submit"] {
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 8px;
+  padding: 8px 5px;
+  border: none;
+  color: white;
+  background-color: #ff3232;
+  font-size: smaller;
+}
+
+/* flex and grid view for sect678910 */
+.sect6789 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto auto auto;
+}
