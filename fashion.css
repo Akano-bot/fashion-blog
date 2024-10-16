@@ -350,6 +350,11 @@ input[type="submit"] {
   font-size: smaller;
 }
 
+input[type="submit"]:hover {
+  cursor: pointer;
+  background-color: #9d9a9a;
+}
+
 /* flex and grid view for sect678910 */
 .sect6789 {
   display: flex;
